@@ -19,9 +19,11 @@
         <name>vendor.oplus.hardware.appradio</name>
         <version>1.0</version>
         <interface>
-            <name>IOplusAppRadio</name>
-            <instance>oplus_app_slot1</instance>
-            <instance>oplus_app_slot2</instance>
+            
+            <name>IRadioStable</name>
+            <instance>OplusRadio0</instance>
+            <instance>OplusRadio1</instance>
+            
         </interface>
     </hal>
     <hal format="hidl" optional="true">
